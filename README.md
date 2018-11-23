@@ -35,7 +35,12 @@ python-simplejson python-xlib pygtk2 git'
 
 ## Ubuntu
 
-Open a terminal and install the pocketsphinx repository: Todo: PPA is outdated. Search for a new ppa containing cmusphinx.
+Searches for a cmusphinx ppa for recent versions of Ubuntu haven't returned good 
+results, but [this 
+site](http://jrmeyer.github.io/asr/2016/01/09/Installing-CMU-Sphinx-on-Ubuntu.html) 
+contains recent walkthroughs to help build from source.
+
+For older versions of Ubuntu. Open a terminal and install the pocketsphinx repository: 
 
 ```bash
 sudo add-apt-repository ppa:dhuggins/cmusphinx
