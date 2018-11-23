@@ -28,6 +28,7 @@ The following packages may be installed through the package manager.
 ```bash
 su -c 'yum groupinstall "C Development Tools and Libraries"'
 su -c 'yum -y install gstreamer-python sphinxbase-libs \
+gstreamer-0.10 gstreamer-plugins-good-0.10 gstreamer-plugins-base-0.10 \
 pocketsphinx-libs pocketsphinx sphinxbase pocketsphinx-plugin \
 python-simplejson python-xlib pygtk2 git'
 ```
@@ -48,8 +49,9 @@ Get updates and install dependencies.
 sudo apt-get update
 
 sudo apt-get python-xlib python-simplejson python-gtk2 python-gst0.1 \
-gstreamer0.10-pocketsphinx sphinx-common python-sphinxbase \
-python-pocketsphinx sphinxbase-utils git
+gstreamer0.10-pocketsphinx gstreamer0.10-plugins-base gstreamer0.10-plugins-good \
+sphinx-common python-sphinxbase python-pocketsphinx sphinxbase-utils git \
+jackd libjack0 libjack-dev
 ```
 
 If installation balks and says it can't find /media/cdrom the location may be different. The trick is to use the mount command from a terminal to discover where the cd is mounted and make it a link to /media/cdrom
