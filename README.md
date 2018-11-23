@@ -2,7 +2,11 @@
 
 FreeSpeech is a free and open-source (FOSS), cross-platform desktop application front-end for PocketSphinx dictation, voice transcription, and realtime speech recognition. FreeSpeech enables speaker-independent voice recognition with dynamic language learning capability using the PocketSphinx speech recognition engine. Get FreeSpeech via git from Github (https://github.com/themanyone/freespeech-vr).
 
-In addition to dictation, FreeSpeech now provides voice commands and keyboard emulation, so users can dictate into other apps, remote terminals, and virtual machines.
+Author: Henry Kroll III http://thenerdshow.com
+
+In addition to dictation, 
+FreeSpeech now provides voice commands and keyboard 
+emulation, so users can dictate into other apps, remote terminals, and virtual machines.
 
 ## Installation
 
